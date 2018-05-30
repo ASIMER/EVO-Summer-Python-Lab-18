@@ -13,6 +13,6 @@ Example:
 python Simulate.py -n 20 -i 1000 --my-gossip --my-gossip-split
 
 Description:
-  -my_gossip - added randomising without self-choosing
-  -my_gossip_split - in addition to my_gossip has list splitting, it splits list on 2 parts and determines new randomise scope.
-  -my_gossip100 - it creates new list for visited nodes and ignore them for future package sending.
+  - my_gossip - added randomising without self-choosing
+  - my_gossip_split - in addition to my_gossip has list splitting, it splits list on 2 parts and determines new randomise scope.
+  - my_gossip100 - it creates new list for visited nodes and ignore them for future package sending.
