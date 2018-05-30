@@ -4,6 +4,7 @@ Simulation has 3 custom modes:
   - my_gossip
   - my_gossip_split (best)
   - my_gossip100
+  
 Standart:
   - gossip
 To use some of it, just write arguments after filepath.
