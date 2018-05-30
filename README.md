@@ -9,6 +9,7 @@ Standart:
   - gossip
   
 To use some of it, just write arguments after filepath.
+
 Example:
 python Simulate.py -n 20 -i 1000 --my-gossip --my-gossip-split
 
