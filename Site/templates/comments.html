@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/comments.css">
+</head>
+<body>
+	<button type="button" id="CreateNotePageBtn"  onClick='location.href="/"'>Create note page</button>
+	<div id="Comments">
+	    <h2>Comments</h2>
+	    {% for comment in comments %}
+	    <div class="Comment">
+	    	{% for line in comment.split("\r\n") %}
+	        {{ line }}<br>
+	     	{% endfor %}
+	     </div><br>
+	    {% endfor %}
+  	</div>
+</body>
+</html>

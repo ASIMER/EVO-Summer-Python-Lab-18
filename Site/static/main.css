@@ -1,0 +1,42 @@
+#TextForm {
+	width: 80%;
+	height: 100%;
+	max-width: 900px;
+	min-width: 200px;
+	min-height: 100px;
+	max-height: 700px;
+	font-size: 14pt;
+}
+#CreateNoteForm {
+	position: fixed;
+	top: 5%;
+	left: 25%;
+	width: 80%;
+	max-width: 901px;
+	min-width: 201px;
+}
+#SubmitBtn {
+	position: absolute;
+	margin-top: 10px;
+	left: 75%;
+	width: 50px;
+	height: 30px;
+}
+#Notification{
+	color:green;
+	position: relative;
+	margin-top: 10px;
+	font-size: 14pt;
+	width: 80px;
+}
+#NotesPageBtn{
+	position: fixed;
+	left: 1%;
+	top: 20%;
+	background: #f2f6f8;
+	border: 1px solid #7a7b7e;
+	width: 160px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 14pt;
+}

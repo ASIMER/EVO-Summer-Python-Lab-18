@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="static/main.css">
+</head>
+<body>
+<form id="CreateNoteForm" method="POST" action="/create" name="Create note field">
+	<h2>White your note there:</h2>
+	<br>
+	<textarea id="TextForm" type="text" name="Note"></textarea>
+	<br>
+	<span id="Notification">{{ notification }}</span>
+	<input id="SubmitBtn" type="submit" value="Send">
+	<button type="button" id="NotesPageBtn"  onClick='location.href="/comments"'>View notes page</button>
+</form>
+</body>
+</html>
